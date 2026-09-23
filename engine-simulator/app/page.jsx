@@ -271,7 +271,7 @@ export default function EngineSimulatorApp() {
                 {fileName ? fileName : 'Select .wav / .mp3'}
               </span>
             </span>
-            <input type="file" name="file_upload" className="hidden" accept="audio/*" onChange={handleFileUpload} />
+            <input type="file" name="file_upload" className="hidden" accept="audio/wav, .wav" onChange={handleFileUpload} />
           </label>
         </div>
 
