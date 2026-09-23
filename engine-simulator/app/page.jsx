@@ -10,7 +10,7 @@ const DEFAULTS = {
   maxMph: 80.0,
   maxVolume: 1.0,
   sensitivity: 1.0,
-  baselineRpm: 1.0,
+  baselineRpm: 0.5,
 };
 
 const haversineDistance = (lat1, lon1, lat2, lon2) => {
